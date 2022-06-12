@@ -190,7 +190,7 @@ La imagen fue subida a [DockerHub](https://hub.docker.com/r/mlopezcifpfbmoll/pro
 
 Para comprobar que el servicio *Tomcat* funciona de manera correcta, acudimos en nuestro navegador a la ruta `localhost:8082/LoginWebApp/register.jsp`, se nos deberia mostrar una pagina de registro donde ingresaremos datos del usuario:
 
-![phpMyAdmin Login](Imagenes/register.png)
+![phpMyAdmin Login](Imagenes/Register.PNG)
 
 Para comprobar que todo funciona correctamente podemos conectarnos a nuestro servidor "*phpMyAdmin*" escribiendo en el buscador `localhost:8081/index.php` y viendo que aparece el *login* de *phpMyAdmin*, ingresamos y en la seleccion de base de datos realizamos un select de la tabla `USER` y se mostrará los datos del usuario que se han introducido con anterioridad:
 
